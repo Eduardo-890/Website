@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-saucers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-saucers figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header {
+    height: 450px;
+    background: url(img/header.jpg) no-repeat center top;
+    background-size: cover;
+
+}
+
+.navbar {
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #d6e199;
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+}
+
+.title {
+    margin-bottom: 80px;
+    font: 120px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 80px 0;
+
+}
+
+.abo {
+    background: #6D32FF;
+    color: #fff;
+}
+
+.abo p {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.GPS {
+    background: #3d3f36;
+    color: #fff;
+}
+.saucers {
+    background: #3d3f36;
+    color: #fff;
+   
+}
+*{
+    margin:0;
+    padding:0;
+}
+section{
+    background-color: #6D32FF;
+    text-align: center;
+    }
+    
+    .divImagen img{
+    margin-top:10%;
+    width: 20%;
+    }
+    
+    .divTexto{
+    background-color: #6D32FF;
+    width: "";
+    text-align: center;
+    margin: 10px;
+
+    }
+    
+
+    .divContenedor{
+    background-color:#6D32FF;
+    display: inline-block;
+    
+    width: 100%;
+
+    }
+.divContenedor li{
+    display: inline-block;
+}
+.divContenedor li .divImagen img{
+width:14rem;
+height:14rem;
+}
+
+
+
+.price {
+    background: url(img/tels.jpg) no-repeat center top;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+
+}
+
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+} 
+
+.price p {
+    max-width: 450px;
+}
+
+.contact {
+    background: #3d3f36;
+    color: #fff;
+    padding-bottom: 0;
+}
+.date {
+    background: #6D32FF;
+    color: #6D32FF;
+    padding-bottom: 0;
+    position: left 50%;
+}
+
+   }
+.contact.map img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.list-saucers img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.list-saucers figure:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: #ff9000;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+
+.list-saucers img {
+    position: relative;
+    z-index: 1;
+}
+
+
+.list-saucers li {
+    padding: 0 30px;
+}
+
+.list-saucers figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
+
+.parent-div img {
+    width: 20px;
+    height: 20px;
+ }
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+    
+  }
+
+
+
+
+
+
+
